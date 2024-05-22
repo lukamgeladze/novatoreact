@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container span{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    padding: 2px 8px;
+    background: #333333;
+    border-radius: 50%;
+
+
+
+}
+.active{
+    color:  #4EA8DE;
+    font-size:14px ;
+    font-weight:700 ;
+
+}
+.done{
+    color: #8284FA;
+    
+}
+.container div{
+    color:  #4EA8DE;
+    font-size:14px ;
+    font-weight:700 ;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
