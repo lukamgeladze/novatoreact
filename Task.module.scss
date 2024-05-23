@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: gray;
+  border: 1px gray;
+  border-radius: 8px;
+  padding: 16px;
+}
+.checkboxWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.done h3{
+  text-decoration: line-through;
+  color: bisque;
+}
